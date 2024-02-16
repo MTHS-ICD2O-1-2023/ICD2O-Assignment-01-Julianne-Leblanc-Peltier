@@ -2,3 +2,9 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+
+h1 {
+  background-color: rgb(200, 217, 231);
+  color: rgb(32, 71, 104);
+  text-align: center;
+}
