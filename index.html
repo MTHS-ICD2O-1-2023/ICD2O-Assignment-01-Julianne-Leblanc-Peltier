@@ -15,37 +15,58 @@
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">A Tribute: Margaret Hamilton</span>
+
+      <!--Header is split into three columns for separate information. 1) Assignment. 2) Comp. Sci. Person. 3) My name.-->
+      <header class="mdl-layout__header ">
+        <div class="row">
+          <div class="column">
+            <span>Tribute Assignment #1</span>
+          </div>
+          <div class="column2">
+            <span>Margaret Hamilton</span>
+          </div>
+          <div class="column3">
+            <span>Julianne Leblanc-Peltier</span>
+          </div>
         </div>
       </header>
+
+      <!--Main Content of page-->
       <main class="mdl-layout__content">
         <div class="page-content" style="padding-left: 100px">
           A little about Margaret Hamilton:
         </div>
+
+        <!--Table on the right side of the Webpage, Signifying important information on Margaret Hamilton-->
         <table>
           <thead>
             <tr>
-              <th>Margaret Hamilton (software engineer)</th>
+              <th colspan="2">Margaret Hamilton (software engineer)</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th><img src="./images/Margaret_Hamilton_1995.jpg" alt="Margaret Hamilton"></th>
+              <th colspan="2"><img src="./images/Margaret_Hamilton_1995.jpg" alt="Margaret Hamilton"></th>
             </th>
             <tr>
               <td class="table-category">Born</td>
               <td class="mdl-data-table__cell--non-numeric">Margaret Elaine Heafield <br> August 17, 1936 (age 87) <br> Paoli, Indiana, U.S.</td>
             </tr>
             <tr>
-              <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
+              <td class="table-category">Education</td>
+              <td class="mdl-data-table__cell--non-numeric">	University of Michigan <br> Earlham College (BA).</td>
             </tr>
             <tr>
-              <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
+              <td class="table-category">Occupation</td>
+              <td class="mdl-data-table__cell--non-numeric">Software Engineer</td>
+            </tr>
+            <tr>
+              <td class="table-category">Awards</td>
+              <td class="mdl-data-table__cell--non-numeric">Presidential Medal of Freedom</td>
             </tr>
           </tbody>
         </table>
+      </main>
   </body>
 
 </html>
