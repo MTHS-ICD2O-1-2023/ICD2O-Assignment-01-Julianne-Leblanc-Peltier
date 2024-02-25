@@ -8,41 +8,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-light_green.min.css" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-lime.min.css" />
   <title>Assignment #1: Margaret Hamilton</title>
 </head>
 
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
       <!--Header is split into three columns for separate information. 1) Assignment. 2) Comp. Sci. Person. 3) My name.-->
       <header class="mdl-layout__header ">
-        <div class="row">
-          <div class="column">
-            <span>Tribute Assignment #1</span>
-          </div>
-          <div class="column2">
-            <span>Margaret Hamilton</span>
-          </div>
-          <div class="column3">
-            <span>Julianne Leblanc-Peltier</span>
-          </div>
-        </div>
+          <table>
+            <tr>
+              <th class="header-left">A Tribute: Margaret Hamilton</th>
+              <th class="header-right">Julianne Leblanc-Peltier</th>
+            </tr>
+          </table>
       </header>
 
       <!--Main Content of page-->
       <main class="mdl-layout__content">
-        <div class="page-content" style="padding-left: 100px">
-          A little about Margaret Hamilton:
+        <!--first column - signifying personal history-->
+        <div class="column">
+          <h3>History</h3>
+          <ul>
+            <li>Moved to Michigan at a young age</li>
+            <li>1954: Graduated from Hancock Highschool</li>
+            <li>1955: Studied mathematics at the University of Michigan</li>
+            <li>Later transferred to Earlham College, the same place her mother once studied</li>
+            <li>1958: Earned a BA in mathematics with a minor in philosophy</li>
+          </ul>
         </div>
 
-        <!--Table on the right side of the Webpage, Signifying important information on Margaret Hamilton-->
-        <table>
+        <!--second column - signifying contributions-->
+        <div class="column">
+          <h3>Contributions</h3>
+          <p>Margaret Elaine Hamilton is an American computer scientist, systems engineer, and
+          business owner. She was director of the Software Engineering Division of the MIT Instrumentation Laboratory, which
+          developed on-board flight software for NASA's Apollo program. She later founded two software companies—Higher Order
+          Software in 1976 and Hamilton Technologies in 1986, both in Cambridge, Massachusetts. <br> <br> Hamilton has published more than 130 papers, proceedings, and reports, about sixty projects, and six major programs.</p>
+        </div>
+
+        <!--third column - Table on the right side of the Webpage, Signifying important information on Margaret Hamilton-->
+        <div class="column">
+
+        <table class="infobox-table">
           <thead>
             <tr>
               <th colspan="2">Margaret Hamilton (software engineer)</th>
-            </tr>
+              </tr>
           </thead>
           <tbody>
             <tr>

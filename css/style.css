@@ -3,19 +3,43 @@
 * This file contains the CSS for index.html
 */
 
-h1 {
-  background-color: rgb(255, 233, 247);
-  color: rgb(75, 32, 104);
-  text-align: center;
-  font-size: 30px;
+.header-left {
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 10px;
 }
 
-table {
+.header-right {
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+  background-color: rgb(254 233 255);
+  color: rgb(75 32 104);
+  text-align: center;
+}
+
+.infobox-table {
   float: right;
   text-align: center;
   border-style: solid;
+  border-color: rgb(164 49 179);
   border-spacing: 2px;
-  margin-right: 20px;
 }
 
 .table-category {
@@ -23,52 +47,4 @@ table {
   text-indent: 2px;
   font-weight: bold;
   width: 40%
-}
-
-/*
-#left {
-  float: left;
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 10px
-}
-
-#right {
-  float: right;
-  text-align: right;
-  padding-right: 10px;
-  padding-top: 10px
-}
-
-#center {
-  padding-top: 10px;
-}
-*/
-
-/* Create three equal columns that floats next to each other */
-
-.column, column2, column 3 {
-  width: 31%;
-  padding: 15px;
-}
-
-.column {
-  float: left;
-  padding-left: 10px
-}
-
-.column2 {
-  text-align: center;
-}
-
-.column3 {
-  float: right;
-  padding-right: 10px;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
 }
