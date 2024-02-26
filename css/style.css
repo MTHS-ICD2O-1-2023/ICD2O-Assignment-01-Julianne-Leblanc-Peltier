@@ -46,5 +46,14 @@ h3 {
   text-align: left;
   text-indent: 2px;
   font-weight: bold;
-  width: 40%
+  width: 40%;
+}
+
+.quote {
+  border-color: rgb(255 243 255);
+  background-color: rgb(255 243 255);
+  text-align: center;
+  color: rgb(164 49 179);
+  font-style: italic;
+  font-size: small;
 }
