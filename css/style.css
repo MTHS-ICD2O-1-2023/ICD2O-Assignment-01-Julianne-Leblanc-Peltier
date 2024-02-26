@@ -52,8 +52,8 @@ h3 {
 }
 
 .quote {
-  border-color: rgb(148, 80, 148);
-  background-color: rgb(148, 80, 148);
+  border-color: rgb(148 80 148);
+  background-color: rgb(148 80 148);
   text-align: center;
   color: rgb(255 243 255);
   font-style: italic;
